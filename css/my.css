@@ -12,6 +12,7 @@ body {
             justify-content: center; /* Центрирование столбцов */
             flex-wrap: wrap; /* Позволяет переносить элементы на новую строку */
             width: 90vw; /* Ширина контейнера */
+          
         }
 
         .column {
@@ -22,19 +23,19 @@ body {
         }
 
         .square {
-            width: 15vw; /* Ширина квадрата */
-            height: 15vw; /* Высота квадрата */
+            width: 25vh; /* Ширина квадрата */
+            height: 25vh; /* Высота квадрата */
             background-color: #CDA434; /* Цвет квадрата */
             margin: 2vw 0; /* Отступы между квадратами */
             display: flex; /* Используем Flexbox для центрирования текста */
             justify-content: center; /* Центрирование текста по горизонтали */
             align-items: center; /* Центрирование текста по вертикали */
             color: #000000; /* Цвет текста */
-            font-size: 2vw; /* Размер шрифта */
+            font-size: 3vh; /* Размер шрифта */
             text-decoration: none;
         }
 
-        @media (max-width: 900px){
+        @media (max-width: 1000px){
         .square {
             width: 25vw; /* Ширина квадрата */
             height: 25vw; /* Высота квадрата */
