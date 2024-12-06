@@ -1,0 +1,43 @@
+body {
+            display: flex;
+            justify-content: center; /* Центрирование по горизонтали */
+            align-items: center; /* Центрирование по вертикали */
+            height: 100vh; /* Высота на весь экран */
+            margin: 0;
+            background-color: #3A75C4;
+        }
+
+        .container {
+            display: flex; /* Используем Flexbox для контейнера */
+            justify-content: center; /* Центрирование столбцов */
+            flex-wrap: wrap; /* Позволяет переносить элементы на новую строку */
+            width: 90vw; /* Ширина контейнера */
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column; /* Вертикальное расположение квадратов */
+            align-items: center; /* Центрирование квадратов по горизонтали */
+            margin: 2vw; /* Отступы между столбцами */
+        }
+
+        .square {
+            width: 15vw; /* Ширина квадрата */
+            height: 15vw; /* Высота квадрата */
+            background-color: #CDA434; /* Цвет квадрата */
+            margin: 2vw 0; /* Отступы между квадратами */
+            display: flex; /* Используем Flexbox для центрирования текста */
+            justify-content: center; /* Центрирование текста по горизонтали */
+            align-items: center; /* Центрирование текста по вертикали */
+            color: #000000; /* Цвет текста */
+            font-size: 2vw; /* Размер шрифта */
+            text-decoration: none;
+        }
+
+        @media (max-width: 900px){
+        .square {
+            width: 25vw; /* Ширина квадрата */
+            height: 25vw; /* Высота квадрата */
+            font-size: 4vw; /* Размер шрифта */
+        }
+}

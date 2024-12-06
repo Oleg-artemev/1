@@ -1,0 +1,59 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2d2a2a;
+        }
+
+           .container {
+            display: flex;
+            flex-direction: row;
+            gap: 5vw; /* расстояние между квадратами */
+            width: 100%; /* ширина контейнера */
+            max-width: 2000px; /* максимальная ширина для больших экранов */
+            justify-content: center; /* центрирование квадратов */
+        }
+
+        .square {
+            width: 40vw; /* квадраты занимают 40% ширины контейнера */
+            height: 40vw; /* высота будет зависеть от ширины для сохранения пропорций */
+            text-decoration: none;
+        }
+
+        .red {
+
+            background-color: #d05355;
+            
+        }
+
+        .blue {
+            background-color: #535bd0;
+        }
+
+        .text{
+
+                      margin-top: 17vw;
+                      color: white; /* цвет текста */
+                      font-size: 4vw; /* размер шрифта */
+                      text-align: center; /* выравнивание текста по центру */
+        }
+
+
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column; /* меняем направление на колонку при уменьшении экрана */
+                gap: 5vw;
+                /* justify-content: center; */
+                align-items: center;
+            }
+            .square {
+                width: 60vw; /* увеличиваем ширину квадратов до 80% при маленьком экране */
+                height: 60vw;
+            }
+            .text{
+            font-size: 6vw; /* размер шрифта */
+            margin-top: 25vw;
+            }
+        }
