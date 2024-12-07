@@ -23,6 +23,7 @@ body {
         }
 
         .square {
+
             width: 25vh; /* Ширина квадрата */
             height: 25vh; /* Высота квадрата */
             background-color: #CDA434; /* Цвет квадрата */
@@ -31,14 +32,19 @@ body {
             justify-content: center; /* Центрирование текста по горизонтали */
             align-items: center; /* Центрирование текста по вертикали */
             color: #000000; /* Цвет текста */
-            font-size: 3vh; /* Размер шрифта */
+            font-size: 4vh; /* Размер шрифта */
             text-decoration: none;
         }
+.zak {
+    background: url(../img/s26.jpg) center no-repeat;
+    background-size: cover;
+    color: red;
+}
 
         @media (max-width: 1000px){
         .square {
             width: 25vw; /* Ширина квадрата */
             height: 25vw; /* Высота квадрата */
-            font-size: 4vw; /* Размер шрифта */
+            font-size: 5vw; /* Размер шрифта */
         }
 }
