@@ -1,11 +1,11 @@
 body {
-            display: flex;
-            justify-content: center; /* Центрирование по горизонтали */
-            /*align-items: center;*/ /* Центрирование по вертикали */
-            height: 100vh; /* Высота на весь экран */
-            margin: 0;
-            background-color: #3A75C4;
-        }
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 100vh; /* Высота на весь экран */
+    margin: 0;
+    background-color: #3A75C4;
+}
 
         .container {
             display: flex; /* Используем Flexbox для контейнера */
